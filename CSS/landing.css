@@ -1,0 +1,454 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+:root {
+    --color1: #9d6139;
+    --color2: #3d2b1f;
+    --stdDistance: 15px;
+    --fontSize1: 1.2rem;
+    --fontSize2: 1.6rem;
+    --font1: 'Cabin', sans-serif;
+    --font2: 'Comfortaa', cursive;
+}
+
+body {
+    font-size: 1.4rem;
+    font-family: var(--font1);
+}
+
+
+/*Phan TITLE*/
+
+.banner-header img {
+    width: 100%;
+    height: 50%;
+    margin-top: -45px;
+}
+
+.logo {
+    width: 100%
+}
+
+.logo img {
+    width: 24%;
+    display: block;
+    position: relative;
+    margin: 10px auto 10px auto;
+    align-items: center
+}
+
+.banner-header {
+    height: 100%;
+    margin: -80px 0 0 0
+}
+
+.title {
+    margin: -120px 0 0 0;
+    width: 100%;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: var(--fontSize2);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.title p {
+    font-size: var(--fontSize1);
+    color: white;
+    padding-bottom: 20px;
+}
+
+
+/*HET Phan TITLE*/
+
+.dang-ky {
+    border: solid 1px #ffffff;
+    border-radius: 10%;
+    display: block;
+    box-sizing: border-box;
+}
+
+.khung-dang-ky {
+    display: block;
+    padding: 15px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+
+/*Khung noi dung chi tiet*/
+
+.dang-ky .khung-dang-ky p:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 100%;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: -22px;
+}
+
+.dang-ky .khung-dang-ky h2 {
+    font-size: var(--fontSize2);
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dang-ky .khung-dang-ky:nth-child(2) h2 {
+    color: black;
+}
+
+.dang-ky .khung-dang-ky p {
+    font-size: 20px;
+    padding: 0;
+    margin: 0 1rem 1rem 35px
+}
+
+
+/*HET Khung noi dung chi tiet*/
+
+
+/*Khung dien thong tin dang ky*/
+
+.khung-dang-ky input {
+    display: block;
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: solid 5px black;
+    border-radius: 30px;
+    font-size: var(--fontSize1);
+}
+
+.khung-dang-ky input[type="submit"] {
+    background-color: black;
+    color: #fff;
+    font-size: var(--fontSize2);
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+}
+
+.khung-dang-ky form {
+    padding-left: 10%;
+}
+
+.khung-dang-ky input:focus {
+    outline: none;
+}
+
+
+/* HET Khung dien thong tin dang ky*/
+
+
+/*Phan-uu-diem*/
+
+.background-phan-2 {
+    background-color: white;
+    padding: 15px;
+    width: 100%;
+    margin-top: 16px;
+    background-image: url("../img/landingpage/bg-lineart.jpg");
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+
+.uu-diem h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+
+.uu-diem .khung-uu-diem {
+    background-color: #ffffff;
+    border-radius: 35px;
+    height: 420px;
+    margin: 0 auto 1rem auto;
+    padding: 15px;
+    border: 3px solid black;
+}
+
+.Footer-color {
+    background-color: #F9F9F9
+}
+
+.uu-diem .khung-uu-diem div {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.uu-diem .khung-uu-diem img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.uu-diem .khung-uu-diem h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.uu-diem .khung-uu-diem p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.swiper-pagination {
+    margin-top: 20px;
+    color: var(--color1);
+}
+
+
+/*Het Phan-uu-diem*/
+
+
+/*Danh-sach*/
+
+.danh-sach h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 20px 0 15px 0;
+}
+
+.danh-sach .khung-ds {
+    width: 100%;
+    margin: 0 auto 1rem auto;
+    padding: 30px;
+    background-color: #E8E8E8;
+    border-radius: 30px;
+}
+
+.danh-sach .khung-ds h2 {
+    font-weight: bold;
+}
+
+.danh-sach .khung-ds img {
+    display: block;
+    height: 230px;
+    margin: 0px auto 15px auto;
+    border-radius: 30px;
+}
+
+.danh-sach .khung-ds a {
+    background-color: black;
+    color: #ffffff;
+    border: 1px solid var(--color1);
+    border-radius: 30px;
+    padding: 13px 35px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+    float: right;
+    text-align: center
+}
+
+
+/*Het Danh-sach*/
+
+.background-phan-2 .go-to-index {
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: 15px auto 0;
+    width: 200px;
+    padding: 13px 16px;
+    border: solid 1px #ffffff;
+    border-radius: 30px;
+    ;
+    background-color: #ffffff
+}
+
+.background-phan-2 .go-to-index a {
+    text-decoration: none;
+    color: var(--color2);
+    font-weight: 650;
+}
+
+
+/*Danh-gia*/
+
+.danh-gia h1 {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0 15px 0;
+}
+
+.danh-gia .row {
+    margin: 0 auto 30px auto;
+    padding: 8px;
+    height: 550px;
+}
+
+.danh-gia .row .avatar {
+    display: flex;
+    justify-content: center;
+}
+
+.danh-gia .row img {
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.danh-gia .row h2 {
+    text-align: left;
+}
+
+.danh-gia .row .nd-danh-gia {
+    padding: 30px 15px 5px 15px;
+    text-align: justify;
+    font-size: var(--fontSize1);
+    border: solid 3px var(--color1);
+    border-radius: 30px;
+    height: 320px;
+}
+
+
+/*Phan Swiper*/
+
+@media screen and (min-width: 768px) {
+    header {
+        position: relative
+    }
+    header .title {
+        position: absolute;
+        top: 70%;
+    }
+    .title h1 {
+        font-Size: 3.2rem;
+        padding: 0;
+    }
+    .title p {
+        font-Size: var(--fontSize2);
+    }
+    .uu-diem {
+        display: inline;
+        flex-flow: row wrap;
+    }
+    .uu-diem h1 {
+        width: 100%;
+    }
+    .uu-diem .khung-uu-diem div {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .uu-diem .khung-uu-diem.khung-giua {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .uu-diem .khung-uu-diem {
+        width: calc((100% - 30px) / 3);
+        max-width: 400px;
+        height: 450px
+    }
+    .danh-gia .row {
+        border: solid 3px var(--color1);
+        border-radius: 30px;
+        margin: 0 auto 30px auto;
+        height: 230px;
+    }
+    .danh-gia .row img {
+        margin-top: 5px;
+    }
+    .danh-gia .row .nd-danh-gia {
+        padding: 10px 30px 5px 0;
+        border: none;
+    }
+    .danh-sach .khung-ds img {
+        float: left;
+        margin-right: 15px;
+        margin-bottom: 0;
+        margin-top: 0
+    }
+    .danh-sach .khung-ds:nth-child(3) img {
+        float: right;
+    }
+    .danh-sach .khung-ds .content-ds {
+        margin-bottom: 30px;
+    }
+    .danh-sach .khung-ds .content-ds p {
+        margin-bottom: 30px;
+    }
+    .danh-sach .khung-ds:nth-child(3) a {
+        float: left;
+    }
+    .background-phan-2 {
+        margin-top: 0px;
+    }
+    .background-phan-2 .go-to-index {
+        height: 70px;
+        width: 300px;
+        border-radius: 50px;
+    }
+    .background-phan-2 .go-to-index a {
+        position: absolute;
+        top: 18%;
+        left: 11%;
+        font-size: var(--fontSize2)
+    }
+}
+
+
+/* ket thuc tablet size */
+
+@media screen and (min-width:992px) {
+    .title h1 {
+        font-Size: 4rem
+    }
+    .danh-sach .khung-ds h2 {
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .danh-sach .khung-ds {
+        padding: 50px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .danh-sach .khung-ds img {
+        margin-right: 40px;
+    }
+    .danh-sach .khung-ds:nth-child(3) img {
+        float: right;
+        margin-right: 0;
+        margin-left: 40px;
+    }
+    .danh-sach .khung-ds .content-ds {
+        margin-bottom: 30px;
+    }
+    .danh-sach .khung-ds .content-ds p {
+        margin-bottom: 60px;
+        font-size: 15px;
+    }
+    .uu-diem .khung-uu-diem div {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .background-phan-2 .go-to-index {
+        height: 90px;
+        width: 400px;
+        border-radius: 80px;
+        margin-bottom: 30px;
+    }
+    .background-phan-2 .go-to-index a {
+        position: absolute;
+        top: 20%;
+        left: 13.3%;
+        font-size: 2rem;
+        font-weight: 650;
+    }
+}
